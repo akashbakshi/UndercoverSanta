@@ -2,6 +2,7 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #212121;
 }
 
 a, .btn-link {
@@ -25,6 +26,25 @@ app {
     display: flex;
     align-items: center;
 }
+
+.bg-dark {
+    background-color: #060000 !important;
+}
+
+.navbar-brand {
+    color: #C10206 !important;
+}
+
+.dropdown-menu {
+    background-color: #FFFBF2 !important;
+}
+
+
+.text-light, .nav-link,h1,h2,h3,h4,h5,h6,p {
+    color: #FFFBF2 !important;
+}
+
+
 
 .main {
     flex: 1;
